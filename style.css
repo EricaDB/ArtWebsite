@@ -1,5 +1,10 @@
+body {
+	font-family: 'Chonburi', sans-serif !important;
+}
+
 .title {
 	text-align: center;
+	font-size: 60px;
 }
 
 .tab {
