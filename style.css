@@ -1,0 +1,16 @@
+.title {
+	text-align: center;
+}
+
+.tab {
+	text-align: center;
+	padding: 10px;
+}
+
+.tab:hover {
+	background-color: #BBBBBB;
+}
+
+.background {
+	background-color: #EEEEEE;
+}
