@@ -7,19 +7,26 @@
 		<div class="container-fluid">
 			<h1 class="title">Erica D. Berg</h1>
 		  	<div class="row">
-		    	<div class="col-md-3 tab">Home</div>
-		    	<div class="col-md-3 tab">Gallery</div>
+		    	<div class="col-md-3 tab selected" onclick="show('home')">Home</div>
+		    	<div class="col-md-3 tab" onclick="show('gallery')">Gallery</div>
 		    	<div class="col-md-3 tab">About/Contact</div>
 		    	<div class="col-md-3 tab">News</div>
 		  	</div>
 			<div class="row"></div>
 		  	<div class="row">
-				<div class="col-md-2"></div>
-				<div class="col-lg-8 center-block">
-		  			<img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/ericadb-art-website/sea_witch_smaller.jpg">
+				<div class="subpage" id="home">
+					<div class="col-md-2"></div>
+					<div class="col-lg-8 center-block">
+			  			<img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/ericadb-art-website/sea_witch_smaller.jpg">
+					</div>
+					<div class="col-md-2"></div>
 				</div>
-				<div class="col-md-2"></div>
 		  	</div>
+			<div class="row">
+				<div class="subpage" id="gallery">
+					<h2>Gallery</h2>
+				</div>
+			</div>
 		</div>
 
 		<link rel="stylesheet" href="style.css">
@@ -27,5 +34,6 @@
 		<link href="https://fonts.googleapis.com/css?family=Chonburi" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="app.js"></script>
 	</body>
 </html>
