@@ -5,15 +5,18 @@ body {
 .title {
 	text-align: center;
 	font-size: 60px;
+	margin-bottom: 20px;
 }
 
 .tab {
 	text-align: center;
 	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .tab:hover {
-	background-color: #BBBBBB;
+	color: #BBBBBB;
 }
 
 .background {
