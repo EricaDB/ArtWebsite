@@ -5,35 +5,33 @@
 	</head>
 	<body class="background">
 		<div class="container-fluid">
-			<h1 class="title">Erica D. Berg</h1>
 		  	<div class="row">
-		    	<div class="col-md-3 tab selected">Home</div>
-		    	<div class="col-md-3 tab">Gallery</div>
-		    	<div class="col-md-3 tab" onclick="aboutPage()">About/Contact</div>
-		    	<div class="col-md-3 tab">News</div>
+				<h1 class="col-md-3 title" onclick="homePage()">Erica D. Berg</h1>
+				<div class="col-md-3"></div>
+		    	<div class="col-md-1 tab" onclick="homePage()">Home</div>
+		    	<div class="col-md-1 tab">Gallery</div>
+		    	<div class="col-md-1 tab" onclick="aboutPage()">About</div>
+		    	<div class="col-md-1 tab">News</div>
 		  	</div>
 			<div class="row"></div>
-		  	<div class="row">
-				<div class="subpage" id="home">
-					<div class="col-md-2"></div>
-					<div class="col-lg-8 center-block">
-			  			<img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/ericadb-art-website/sea_witch_smaller.jpg">
-					</div>
-					<div class="col-md-2"></div>
+		  	<div class="row row-no-gutters">
+				<div class="col-md-4">
+		  			<img class="img-responsive" src="https://ericadb-art-website.s3-us-west-2.amazonaws.com/Seaside_Witch_thumbnail.jpg">
+				</div>
+				<div class="col-md-4">
+		  			<img class="img-responsive" src="https://ericadb-art-website.s3-us-west-2.amazonaws.com/Seaside_Witch_thumbnail.jpg">
+				</div>
+				<div class="col-md-4">
+		  			<img class="img-responsive" src="https://ericadb-art-website.s3-us-west-2.amazonaws.com/Seaside_Witch_thumbnail.jpg">
 				</div>
 		  	</div>
-			<div class="row">
-				<div class="subpage" id="gallery">
-					<h2>Gallery</h2>
-				</div>
-			</div>
 		</div>
 
 		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Chonburi" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 		<script src="app.js"></script>
 	</body>
 </html>

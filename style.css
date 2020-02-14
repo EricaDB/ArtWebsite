@@ -4,8 +4,8 @@ body {
 
 .title {
 	text-align: center;
-	font-size: 60px;
-	margin-bottom: 20px;
+	font-size: 30px;
+	margin-bottom: 10px;
 }
 
 .tab {
@@ -21,4 +21,9 @@ body {
 
 .background {
 	background-color: #EEEEEE;
+}
+
+.thumbnail {
+	padding-left: 0px;
+	padding-right: 0px;
 }
