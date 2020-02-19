@@ -1,2 +1,2 @@
-# Erica D. Berg Artwork
-The art website of Erica D. Berg
+# Erica Berg Artwork
+The art website of Erica Berg
