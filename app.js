@@ -27,6 +27,3 @@ function viewImage() {
 	  modal.style.display = "none";
 	}
 }
-
-var img = document.getElementById("myImg");
-img.onclick = viewImage;
