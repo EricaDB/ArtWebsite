@@ -5,14 +5,29 @@
 	</head>
 	<body class="background">
 		<div class="container-fluid">
-		  	<div class="row">
-				<div class="col-md-3 title" onclick="homePage()"><h1>Erica D. Berg</h1></div>
-				<div class="col-md-3"></div>
-		    	<div class="col-md-1 tab" onclick="homePage()">Home</div>
-		    	<div class="col-md-1 tab" onclick="aboutPage()">About</div>
-		    	<div class="col-md-1 tab">Instagram</div>
-		    	<div class="col-md-1 tab">YouTube</div>
-		  	</div>
+			<nav class="navbar navbar-expand-md">
+				<a class="navbar-brand" onclick="homePage()"><h1>Erica Berg Illustration</h1></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon">MENU</span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" onclick="homePage()">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" onclick="aboutPage()">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href"#">Instagram</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href"#">YouTube</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+
 		  	<div class="row no-gutters">
 				<div id="witchesFamiliar" class="col-md-4 image" onclick="viewImage('witchesFamiliar')">
 		  			<img class="img-fluid" src="https://ericadb-art-website.s3-us-west-2.amazonaws.com/Witchs_Familiar_thumbnail.jpg">
