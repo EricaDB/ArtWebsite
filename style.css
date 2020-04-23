@@ -8,6 +8,14 @@ body {
 	color: #000000;
 }
 
+a {
+	color: #555555;
+}
+
+a:hover {
+	color: #000000;
+}
+
 .background {
 	background-color: #FFFFFF;
 }
