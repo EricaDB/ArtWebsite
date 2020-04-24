@@ -25,6 +25,19 @@ a:hover {
 	padding-right: 0px;
 }
 
+#social-navigation-bar {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.social-media-icon {
+	height: 20px;
+}
+
+.youtube-icon {
+	height: 30px;
+}
+
 
 
 .overlay {
