@@ -7,6 +7,8 @@ function aboutPage() {
 };
 
 var fullImage = {
+	"desertWizard": "https://ericadb-art-website.s3-us-west-2.amazonaws.com/fullsize/Desert_Wizard.jpg",
+	"manaPotion": "https://ericadb-art-website.s3-us-west-2.amazonaws.com/fullsize/Mana_Potion.jpg",
 	"witchesFamiliar": "https://ericadb-art-website.s3-us-west-2.amazonaws.com/fullsize/Witchs_Familiar.jpg",
 	"knight": "https://ericadb-art-website.s3-us-west-2.amazonaws.com/fullsize/Knight.jpg",
 	"arcticRift": "https://ericadb-art-website.s3-us-west-2.amazonaws.com/fullsize/Arctic_Rift.jpg",
