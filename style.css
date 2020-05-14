@@ -1,6 +1,11 @@
 body {
-	font-family: Montserrat,
+	font-family: Montserrat;
 	color: #555555;
+}
+
+.title {
+	font-family: Cinzel;
+	color: black !important;
 }
 
 .nav-item:hover {
