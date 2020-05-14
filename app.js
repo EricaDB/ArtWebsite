@@ -6,6 +6,22 @@ function aboutPage() {
     location.href = "about.html";
 };
 
+function viewImage(imageId) {
+	var modal = document.getElementById("myModal");
+	var modalImg = document.getElementById("modalImg");
+	var captionText = document.getElementById("caption");
+	modal.style.display = "block";
+	modalImg.src = fullImage[imageId];
+	captionText.innerHTML = caption[imageId];
+
+	var span = document.getElementsByClassName("close")[0];
+
+	// When the user clicks on <span> (x), close the modal
+	span.onclick = function() {
+	  modal.style.display = "none";
+	}
+}
+
 var fullImage = {
 	"desertWizard": "https://ericadb-art-website.s3-us-west-2.amazonaws.com/fullsize/Desert_Wizard.jpg",
 	"manaPotion": "https://ericadb-art-website.s3-us-west-2.amazonaws.com/fullsize/Mana_Potion.jpg",
@@ -19,18 +35,15 @@ var fullImage = {
 	"selfPortrait": "https://ericadb-art-website.s3-us-west-2.amazonaws.com/fullsize/Self_Portrait.jpg"
 }
 
-function viewImage(imageId) {
-	var modal = document.getElementById("myModal");
-	var modalImg = document.getElementById("modalImg");
-	var captionText = document.getElementById("caption");
-	modal.style.display = "block";
-	modalImg.src = fullImage[imageId];
-	captionText.innerHTML = "Example Caption Text";
-
-	var span = document.getElementsByClassName("close")[0];
-
-	// When the user clicks on <span> (x), close the modal
-	span.onclick = function() {
-	  modal.style.display = "none";
-	}
+var caption = {
+	"desertWizard": "Desert Wizard",
+	"manaPotion": "Mana Potion",
+	"witchesFamiliar": "Witch's Familiar",
+	"knight": "Knight",
+	"arcticRift": "Arctic Rift",
+	"frozenFalls": "Frozen Falls",
+	"xena": "Xena",
+	"theGreenFairy": "The Green Fairy",
+	"seasideWitch": "Seaside Witch",
+	"selfPortrait": "Self Portrait"
 }
