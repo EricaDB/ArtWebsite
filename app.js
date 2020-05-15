@@ -6,9 +6,19 @@ function aboutPage() {
     location.href = "about.html";
 };
 
-function viewImage(imageId) {
+function viewImage(imageId, orientation) {
 	var modal = document.getElementById("myModal");
-	var modalImg = document.getElementById("modalImg");
+
+	if (orientation === "horizontal") {
+		var modalImg = document.getElementById("modalImgHorizontal");
+		var otherImgOrientation = document.getElementById("modalImgVertical");
+	} else if (orientation === "vertical") {
+		var modalImg = document.getElementById("modalImgVertical");
+		var otherImgOrientation = document.getElementById("modalImgHorizontal");
+	}
+	modalImg.hidden = false;
+	otherImgOrientation.hidden = true;
+
 	var captionText = document.getElementById("caption");
 	modal.style.display = "block";
 	modalImg.src = fullImage[imageId];
