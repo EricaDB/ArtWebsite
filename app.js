@@ -42,7 +42,8 @@ var fullImage = {
 	"xena": "https://ericadb-art-website.s3-us-west-2.amazonaws.com/fullsize/Xena.jpg",
 	"theGreenFairy": "https://ericadb-art-website.s3-us-west-2.amazonaws.com/fullsize/The_Green_Fairy.jpg",
 	"seasideWitch": "https://ericadb-art-website.s3-us-west-2.amazonaws.com/fullsize/Seaside_Witch.jpg",
-	"selfPortrait": "https://ericadb-art-website.s3-us-west-2.amazonaws.com/fullsize/Self_Portrait.jpg"
+	"selfPortrait": "https://ericadb-art-website.s3-us-west-2.amazonaws.com/fullsize/Self_Portrait.jpg",
+	"lowTide": "https://ericadb-art-website.s3-us-west-2.amazonaws.com/fullsize/Low_Tide.jpg"
 }
 
 var caption = {
@@ -55,5 +56,6 @@ var caption = {
 	"xena": "Xena",
 	"theGreenFairy": "The Green Fairy",
 	"seasideWitch": "Seaside Witch",
-	"selfPortrait": "Self Portrait"
+	"selfPortrait": "Self Portrait",
+	"lowTide": "Low Tide"
 }
