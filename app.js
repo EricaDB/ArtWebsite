@@ -32,6 +32,17 @@ function viewImage(imageId, orientation) {
 	}
 }
 
+function clickAwayFromImage() {
+	var artImageVertical = document.getElementById("modalImgVertical");
+	var artImageHorizontal = document.getElementById("modalImgHorizontal");
+	var modal = document.getElementById("myModal");
+
+	// When the user clicks anywhere on the page besides the art image, close the modal
+	if (!(artImageVertical.contains(event.target) || artImageHorizontal.contains(event.target))) {
+		modal.style.display = "none";
+	}
+}
+
 var fullImage = {
 	"desertWizard": "https://ericadb-art-website.s3-us-west-2.amazonaws.com/fullsize/Desert_Wizard.jpg",
 	"manaPotion": "https://ericadb-art-website.s3-us-west-2.amazonaws.com/fullsize/Mana_Potion.jpg",
