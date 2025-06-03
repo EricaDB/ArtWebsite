@@ -54,7 +54,8 @@ var fullImage = {
 	"theGreenFairy": "https://ericadb-art-website.s3-us-west-2.amazonaws.com/fullsize/The_Green_Fairy.jpg",
 	"seasideWitch": "https://ericadb-art-website.s3-us-west-2.amazonaws.com/fullsize/Seaside_Witch.jpg",
 	"selfPortrait": "https://ericadb-art-website.s3-us-west-2.amazonaws.com/fullsize/Self_Portrait.jpg",
-	"lowTide": "https://ericadb-art-website.s3-us-west-2.amazonaws.com/fullsize/Low_Tide.jpg"
+	"lowTide": "https://ericadb-art-website.s3-us-west-2.amazonaws.com/fullsize/Low_Tide.jpg",
+	"streamliner": "https://ericadb-art-website.s3.us-west-2.amazonaws.com/fullsize/Streamliner_2024.jpg"
 }
 
 var caption = {
@@ -68,5 +69,6 @@ var caption = {
 	"theGreenFairy": "The Green Fairy",
 	"seasideWitch": "Seaside Witch",
 	"selfPortrait": "Self Portrait",
-	"lowTide": "Low Tide"
+	"lowTide": "Low Tide",
+	"streamliner": "Streamliner"
 }
