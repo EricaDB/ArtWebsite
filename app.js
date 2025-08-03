@@ -56,7 +56,8 @@ var fullImage = {
 	"selfPortrait": "https://ericadb-art-website.s3-us-west-2.amazonaws.com/fullsize/Self_Portrait.jpg",
 	"lowTide": "https://ericadb-art-website.s3-us-west-2.amazonaws.com/fullsize/Low_Tide.jpg",
 	"streamliner": "https://ericadb-art-website.s3.us-west-2.amazonaws.com/fullsize/Streamliner_2024.jpg",
-	"precisionRocket": "https://ericadb-art-website.s3.us-west-2.amazonaws.com/fullsize/Precision_Rocket_2024.jpg"
+	"precisionRocket": "https://ericadb-art-website.s3.us-west-2.amazonaws.com/fullsize/Precision_Rocket_2024.jpg",
+	"generalist": "https://ericadb-art-website.s3.us-west-2.amazonaws.com/fullsize/The_Generalist.jpg"
 }
 
 var caption = {
@@ -72,5 +73,6 @@ var caption = {
 	"selfPortrait": "Self Portrait",
 	"lowTide": "Low Tide",
 	"streamliner": "Streamliner",
-	"precisionRocket": "Precision Rocket"
+	"precisionRocket": "Precision Rocket",
+	"generalist": "The Generalist"
 }
